@@ -1,0 +1,128 @@
+.logoimg{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+nav{
+    background-color: black;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-toggler {
+    border-color: white !important; 
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    color: white !important;
+}
+input::placeholder {
+    color: white !important;    
+}
+#i{
+    color: white;
+    padding: 10px;
+    font-size: 19px;
+}
+#i:hover{
+    background-color: lightgray;
+    border-radius: 100%;
+}
+.nav-item mx-2:hover{
+color: lightgray;
+}
+/* underline k liye  */
+.nav-link {
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: burlywood; /* Line ka color */
+    transition: width 0.3s ease-in-out;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+section{
+    margin-bottom: auto;
+    width: 100%;
+    margin-top: 75px;
+}
+section img {
+    width: 100%;
+}
+#heading{
+    /* margin-top: 100px; */
+    padding: 180px
+}
+.b1{
+    height: 40px;
+    width: 130px;
+    background-color: black;
+    color: white;
+}
+.container{
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.b5{
+    font-size: large;
+    height: 40px;
+    width: 250px;
+    border-radius: 0px;
+    background-color: black !important;
+    color: white !important;
+}
+#bmw{
+    margin-top: 120px;
+}
+.b6{
+    font-size: large;
+    height: 40px;
+    width: 120px;
+    border-radius: 0px;
+    background-color: black !important;
+    color: white !important;
+}
+.b7{
+    font-size: large;
+    height: 40px;
+    width: 250px;
+    border-radius: 0px;
+    background-color: black !important;
+    color: white !important;
+}
+#head{
+    color: black;
+}
+.co{
+    color: white;
+}
+
+
+.m1{
+    height: 80px;
+    width: 200px;
+    /* display: flex; */
+}
+.second{
+    background-color: #E6D7CE;
+    padding: 10px;
+}
+.btn-outline-dark {
+    background-color: white;  /* White background */
+    border-radius: 0;         /* No border-radius */
+  }
+  
+  .btn-outline-dark:hover {
+    background-color: #f0f0f0; /* Optional: Add hover effect */
+  }
+
+  
